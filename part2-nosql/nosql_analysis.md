@@ -37,17 +37,17 @@
 ###### 2.Embedded Documents
 
 * Reviews stored directly in product document:
-(
-```json
 
-{
+//```json
 
-&nbsp; "name": "iPhone",
+//{
 
-&nbsp; "reviews": \[{"user": "John", "rating": 5}]
+//&nbsp; "name": "iPhone",
 
-}
-)
+//&nbsp; "reviews": \[{"user": "John", "rating": 5}]
+
+}//
+
 * Single query gets product + reviews.
 
 
@@ -69,5 +69,6 @@
 2\. Complex Queries Harder: No SQL JOINs - need multiple queries or data duplication for relationships.
 
 Verdict: Perfect for fleximart's diverse product catalog despite trade-offs.
+
 
 
