@@ -30,8 +30,8 @@ bitsom_ba_25071428-fleximart-data-architecture/
 
 ## Technologies Used
 - Python 3.14.2, pandas, mysql-connector-python
-- MySQL 8.0
-- Git/GitHub
+- MySQL 8.0 / PostgreSQL 14
+- MongoDB 6.0
 
 ## Setup Instructions
 
