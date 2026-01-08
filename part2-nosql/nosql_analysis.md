@@ -37,7 +37,7 @@
 ###### 2.Embedded Documents
 
 * Reviews stored directly in product document:
-
+(
 ```json
 
 {
@@ -47,10 +47,9 @@
 &nbsp; "reviews": \[{"user": "John", "rating": 5}]
 
 }
-
-
-
+)
 * Single query gets product + reviews.
+
 
 
 ###### 3.Horizontal Scalability
@@ -70,4 +69,5 @@
 2\. Complex Queries Harder: No SQL JOINs - need multiple queries or data duplication for relationships.
 
 Verdict: Perfect for fleximart's diverse product catalog despite trade-offs.
+
 
